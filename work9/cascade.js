@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var collegesSelectArr = ['电子与通信学院', '先进制造学院', '电气技术学院', '汽车学院', '计算机与设计学院', '外语商务学院', '经济贸易学院', '物流学院', '马克思主义学院']
 var majorsSelectArr = [
     ['电子', '电信', '通信', '嵌入', '物联'],
@@ -97,7 +96,6 @@ majorsSelect.onchange = function(){
     creatOptions(classesSelect,classesSelectArr[collegesSelect.value][majorsSelect.value]);
 };
 
-=======
 var collegesSelectArr = ['电子与通信学院', '先进制造学院', '电气技术学院', '汽车学院', '计算机与设计学院', '外语商务学院', '经济贸易学院', '物流学院', '马克思主义学院']
 var majorsSelectArr = [
     ['电子', '电信', '通信', '嵌入', '物联'],
@@ -196,4 +194,4 @@ majorsSelect.onchange = function(){
     creatOptions(classesSelect,classesSelectArr[collegesSelect.value][majorsSelect.value]);
 };
 
->>>>>>> 6ed38a82b6b1612bfc8d2d4522ebf78b79ef957e
+
